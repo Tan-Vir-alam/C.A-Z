@@ -1,14 +1,10 @@
 // Problem No-1: Print your age and name.
-
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
     int age;
 
     cout<<"Enter Your age: ";
     cin>>age;
     cout<<"Your Name is Tanvir. You'r "<<age<<" years old.";
-
-
 }
