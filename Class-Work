@@ -48,6 +48,11 @@ int main(){
 using namespace std;
 int main(){
     int a = 1;
+ //for(initialization;condition;increment){
+    // statement}
+  /*  for(a=1;a<=100;a=a+1){
+        cout<<a<<"\n";
+    }*/
     while(a<=100){
         cout<<a<<"\n";
        a = a+1;
