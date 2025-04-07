@@ -73,3 +73,24 @@ int main(){
         cout<<"\n";
     }
 }
+
+//for loop
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int i,j,n;
+cin>>n;
+for (i=1; i<=n; i++){
+    int star = 0, space = 0;
+    star = i;
+    space = n-i;
+
+    for (j=1; j<=space; j++){
+        cout<<" ";
+    }
+    for (j=1; j<=star; j++){
+        cout<<"*";
+    }
+    cout<<"\n";
+ }
+}
