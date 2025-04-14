@@ -95,6 +95,7 @@ for (i=1; i<=n; i++){
  }
 }
 
+//Array.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
