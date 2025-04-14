@@ -94,3 +94,20 @@ for (i=1; i<=n; i++){
     cout<<"\n";
  }
 }
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+ int n,i,j,k;
+ cin>>n;
+ int roll[n+5], marks[n+5],age[n+5];
+ //cin>>roll[i]>>age[i]>>marks[i];
+    for(int i=0; i<n;i++){
+        cin>>roll[i]>>age[i]>>marks[i];
+    }
+    for(i=0; i<n;i++){
+       cout<<roll[i]<<" "<<(marks[i]+age[i])<<"\n";
+    }
+cout<<"\n";
+
+}
