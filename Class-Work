@@ -132,6 +132,7 @@ int main(){
 
 }
 
+//Find the second max value.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -154,7 +155,6 @@ int main(){
         }
     }
     mx = -1;
-
     for (i=0; i<n; i++){
         if(mx < arr[i]){
             mx = arr[i];
