@@ -163,6 +163,7 @@ int main(){
     cout<<"The second max value is: "<<mx<<"\n";
 }
 
+//sum
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -184,5 +185,4 @@ int main(){
         }
     }
     cout<<sum<<"\n";
-
 }
