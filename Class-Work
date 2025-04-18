@@ -222,3 +222,15 @@ int main(){
     }
     cout<<"\n";
 }
+
+//Class-work;
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string a;
+    cout<<"Enter first name(i will add Alam in your name): ";
+    cin>>a;
+
+    a=a+" Alam";
+    cout<<a<<"\n";
+}
