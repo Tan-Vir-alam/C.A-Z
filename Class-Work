@@ -208,3 +208,17 @@ int main(){
     }
     cout<<"The small number is: "<<mx<<" & index is: "<<index<<"\n";
 }
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    cin>>s;
+
+    int size_of_string = s.size();
+
+    for(int i= 0; i<size_of_string; i++){
+        cout<<s[i]<<" ";
+    }
+    cout<<"\n";
+}
