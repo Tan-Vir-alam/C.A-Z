@@ -187,7 +187,7 @@ int main(){
     cout<<sum<<"\n";
 }
 
-
+//Find the small number and her index.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
