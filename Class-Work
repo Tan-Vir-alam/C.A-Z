@@ -293,3 +293,39 @@ int main(){
         cout<<"No\n";
     }
 }
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int tc;
+    cin>>tc;
+    for(int tt=0; tt<tc; tt++){
+
+     int n;
+     cin>>n;
+     int i, arr[n+2],b[n+2],starting_index=0;
+     starting_index++;
+
+     for(i=0; i<n; i++){
+        cin>>arr[i];
+     }
+     b[starting_index] = arr[0];
+     starting_index++;
+     for(i=1; i<n; i++){
+        if(arr[i]==arr[i-1]){
+            //nothing to do
+        }
+        else{
+            b[starting_index]=arr[i];
+            starting_index++;
+        }
+     }
+     for(i=0; i<starting_index; i++){
+        cout<<b[i]<<" ";
+     }
+     cout<<"\n";
+
+
+    }
+
+}
