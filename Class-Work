@@ -294,6 +294,7 @@ int main(){
     }
 }
 
+//Given a sorted array arr, remove the duplicates from arr such that each element appears only and display the new array.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -324,8 +325,5 @@ int main(){
         cout<<b[i]<<" ";
      }
      cout<<"\n";
-
-
     }
-
 }
