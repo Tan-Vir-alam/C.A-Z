@@ -327,3 +327,7 @@ int main(){
      cout<<"\n";
     }
 }
+
+/*You are given an arry of integers. A and a number of queries q. each query consists of
+tow integers L and R. You have to print the sum of integer in range L to R. Note:- 1 indexed array.
+*/
